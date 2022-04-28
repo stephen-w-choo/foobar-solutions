@@ -1,10 +1,11 @@
 def main():
+# test code
     print(solution([2,5], [1,2], [1,4], 11))
 
 def solution(dimensions, your_position, trainer_position, distance):
 
     # Function to reduce a vector to its simplest form
-    # Uses the Eucliean greatest common denominator algorithm
+    # Uses the Euclidean greatest common denominator algorithm
     def reduce_vector(x, y):
         if x == 0 and y == 0:
             return
@@ -45,7 +46,8 @@ def solution(dimensions, your_position, trainer_position, distance):
         # Simplify the vector
         # Store all previous vectors so far in a self_vector set and target_vector set, check for collisions
         # Loops are designed to terminate if distance limit is exceeded 
-        # This can potentially result in early termination eg at i = 1 even if i = -1 would be below the distance limit
+        # Because of the way the iterator works (going from 0, 1, -1, 2, -2), this can potentially result in early termination 
+        # eg at i = 1 even if i = -1 would be below the distance limit
         # Pass boolean initialised to give it 2 chances
         while True:
             j = 0
