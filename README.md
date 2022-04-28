@@ -4,7 +4,7 @@
 
 Google Foobar is an invitation-based hiring challenge for 'curious developers' who like to solve 'interesting problems'. Apparently it's based on your search history.
 
-These were my solutions to the problems - all the levels are complete, with all test cases passing. I'd say it took me about two months in total, and I very nearly failed level 4, nearly running out of time on "Running with Bunnies".
+These were my solutions to the problems - all the levels are complete, with all test cases passing. It took me about two months in total, and I very nearly failed level 4 from nearly running out of time on "Running with Bunnies".
 
 
 **Disclaimer**
