@@ -86,6 +86,7 @@ def solution(times, times_limit):
     return([])
 
 def main():
+# test code
     print(solution([[0, 1, 1, 1, 1], [1, 0, 1, 1, 1], [1, 1, 0, 1, 1], [1, 1, 1, 0, 1], [1, 1, 1, 1, 0]], 3))
 
 main()
